@@ -158,7 +158,6 @@ void startAdv(void)
   Bluefruit.Advertising.setInterval(32, 244);    // in units of 0.625 ms
   Bluefruit.Advertising.setFastTimeout(30);      // number of seconds in fast mode
   Bluefruit.Advertising.start();
-  Bluefruit.
 }
 
 void loop() 
