@@ -42,7 +42,7 @@ SoftwareTimer blinkTimer;
 #define DEBUG 0
 
 // Note that the byte order is reversed
-const uint8_t BIRD_IDS[][] =
+const uint8_t BIRD_IDS[3][16] =
 {
   {
     // Bird 1
